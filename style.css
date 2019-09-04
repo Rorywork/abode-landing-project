@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+.body{
+    font-size: 16px;
+}
+
+#abode-white{
+    display: none;
+}
+
+#abode-blue{
+    height: 100px;
+}
+
+#top-right-phone{
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.white-text{
+    color: white;
+}
+
+#header-1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#subtext-1{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+#subtext-2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+#btn-container{
+    text-align: center;
+}
+
+#btn-landing{
+    height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #009973;
+    border: 1px solid #009973;
+}
+
+#section-a{
+    background-image: url(https://chooseabode.com/wp-content/uploads/2019/05/new-header-3-1030x458.png);
+    height: 700px;
+}
+
+#trustpilot-container{
+    text-align: center;
+}
+
+.muted-text{
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.sub-header{
+    font-size: 0.8rem;
+}
+
+.sub-text{
+    font-size: 0.7rem;
+}
+
+.fa-check{
+    font-size: 1.6rem;
+    color: rgb(79, 79, 207);
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+#btn-landing-2{
+    margin-top: 20px;
+    height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #009973;
+    border: 1px solid #009973;
+}
+
+#container-2{
+    margin-top: 100px;
+}
+
+
+
+@media (min-width: 768px) {
+    #top-right-phone{
+        display: inline;
+    }
+    .navbar{
+        background-color: rgb(7, 59, 129) !important;
+    }
+    #abode-white{
+        display: inline;
+        margin-top: 17px;
+    }
+    #abode-blue{
+        display: none;
+    }
+    #btn-landing-2{
+        height: 75px;
+        width: 200px;
+        border-radius: 20px;
+        background-color: #009973;
+        border: 1px solid #009973;
+    }
+}
